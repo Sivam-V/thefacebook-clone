@@ -1,0 +1,151 @@
+/* Basic Reset and Font */
+body {
+    background-color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    width: 780px;
+    margin: 10px auto;
+}
+
+a {
+    color: #3B5998;
+    text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header {
+    background-color: #3B5998;
+    padding: 4px 10px;
+    color: #fff;
+    border-bottom: 2px solid #000;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+.search-bar {
+    color: #D8DFEA;
+}
+.search-bar input[type="text"]{
+    width: 200px;
+    border: 1px solid #000;
+}
+.search-bar .search-btn {
+    background-color: #3B5998;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 4px;
+}
+.header-nav a {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Main Layout */
+.main-wrapper {
+    margin-top: 15px;
+    width: 100%;
+}
+.thread-nav {
+    margin-bottom: 10px;
+}
+.thread-nav a {
+    font-weight: bold;
+}
+
+/* Reusable Content Box */
+.content-box-header {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+.content-box-content {
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+/* Message Thread Blocks */
+.message-block {
+    border-bottom: 1px solid #ccc;
+}
+.message-block:last-child {
+    border-bottom: none;
+}
+.message-header {
+    background-color: #f9f9f9;
+    padding: 5px 8px;
+    border-bottom: 1px dotted #ccc;
+    color: #555;
+}
+.message-header strong {
+    color: #000;
+}
+.message-body {
+    padding: 10px 8px 15px 8px;
+    line-height: 1.5;
+}
+.message-body p {
+    margin: 0;
+}
+
+/* Reply Form */
+.reply-container {
+    margin-top: 20px;
+}
+.reply-container h4 {
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+.reply-container textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    padding: 5px;
+}
+.reply-actions {
+    margin-top: 5px;
+}
+.btn {
+    background-color: #3B5998;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 4px 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #D8DFEA;
+}
+.footer p {
+    margin: 5px 0 0 0;
+    color: #666;
+    line-height: 1.5;
+}

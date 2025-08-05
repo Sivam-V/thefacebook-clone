@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thefacebook | Search</title>
+    <link rel="stylesheet" href="searchstyle.css">
+</head>
+<body>
+
+<div class="page-container">
+    <div class="header">
+        <div class="header-content">
+            <h1 class="logo-text">[ thefacebook ]</h1>
+            <div class="search-bar">
+                <label for="search">Search:</label>
+                <input type="text" id="search">
+                <input type="submit" value=">" class="search-btn">
+            </div>
+            <div class="header-nav">
+                <a href="home.html">home</a>
+                <a href="search.html">search</a>
+                <a href="friends.html">friends</a>
+                <a href="messages.html">messages</a>
+                <a href="profile.html">profile</a>
+                <a href="#">logout</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="search-container">
+            <div class="content-box">
+                <div class="content-box-header">Search for People</div>
+                <div class="content-box-content">
+                    <form>
+                        <table class="search-form-table">
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="name"></td>
+                            </tr>
+                            <tr>
+                                <td>School:</td>
+                                <td><input type="text" name="school" value="Harvard University"></td>
+                            </tr>
+                             <tr>
+                                <td>Year:</td>
+                                <td><input type="text" name="year" placeholder="e.g. 2006"></td>
+                            </tr>
+                             <tr>
+                                <td>Course:</td>
+                                <td><input type="text" name="course" placeholder="e.g. CS50"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="submit" value="Search" class="btn"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <div class="content-box-header">Search Results (3 found)</div>
+                <div class="content-box-content">
+                   <ul class="results-list">
+                       <li class="result-item">
+                           <div class="result-pic">?</div>
+                           <div class="result-info">
+                               <h4><a href="#">Mark Zuckerberg</a></h4>
+                               <p>Harvard University</p>
+                           </div>
+                           <div class="result-action">
+                               <button class="btn-addfriend">» Add Friend</button>
+                           </div>
+                       </li>
+                       <li class="result-item">
+                           <div class="result-pic">?</div>
+                           <div class="result-info">
+                               <h4><a href="#">Dustin Moskovitz</a></h4>
+                               <p>Harvard University</p>
+                           </div>
+                           <div class="result-action">
+                                <button class="btn-addfriend">» Add Friend</button>
+                           </div>
+                       </li>
+                       <li class="result-item">
+                           <div class="result-pic">?</div>
+                           <div class="result-info">
+                               <h4><a href="#">Chris Hughes</a></h4>
+                               <p>Harvard University</p>
+                           </div>
+                           <div class="result-action">
+                                <button class="btn-addfriend">» Add Friend</button>
+                           </div>
+                       </li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <a href="#">about</a>
+        <a href="#">contact</a>
+        <a href="#">faq</a>
+        <a href="#">terms</a>
+        <a href="#">privacy</a>
+        <p>a Mark Zuckerberg production<br>Thefacebook © 2005</p>
+    </div>
+</div>
+
+</body>
+</html>
