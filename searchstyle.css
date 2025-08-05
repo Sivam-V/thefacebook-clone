@@ -1,0 +1,175 @@
+/* Basic Reset and Font */
+body {
+    background-color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    width: 780px;
+    margin: 10px auto;
+}
+
+a {
+    color: #3B5998;
+    text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header {
+    background-color: #3B5998;
+    padding: 4px 10px;
+    color: #fff;
+    border-bottom: 2px solid #000;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+.search-bar {
+    color: #D8DFEA;
+}
+.search-bar input[type="text"]{
+    width: 200px;
+    border: 1px solid #000;
+}
+.search-bar .search-btn {
+    background-color: #3B5998;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 4px;
+}
+.header-nav a {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Main Layout */
+.main-wrapper {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.search-container {
+    width: 100%;
+}
+
+/* Reusable Content Box */
+.content-box {
+    margin-bottom: 15px;
+}
+.content-box-header {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    font-weight: bold;
+}
+.content-box-content {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 10px;
+}
+
+/* Search Form */
+.search-form-table {
+    border-collapse: collapse;
+}
+.search-form-table td {
+    padding: 4px;
+}
+.search-form-table td:first-child {
+    font-weight: bold;
+    text-align: right;
+    width: 80px;
+}
+.search-form-table input[type="text"] {
+    width: 250px;
+    border: 1px solid #000;
+}
+.btn {
+    background-color: #3B5998;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 2px 8px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+/* Search Results */
+.results-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.result-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 5px;
+    border-bottom: 1px dotted #ccc;
+}
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-pic {
+    width: 50px;
+    height: 50px;
+    background-color: #D8DFEA;
+    border: 1px solid #3B5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #3B5998;
+    flex-shrink: 0;
+}
+.result-info {
+    flex-grow: 1;
+    margin: 0 15px;
+}
+.result-info h4, .result-info p {
+    margin: 0;
+}
+.result-info h4 {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.result-action {
+    flex-shrink: 0;
+}
+.btn-addfriend {
+    background-color: transparent;
+    border: none;
+    color: #3B5998;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #D8DFEA;
+}
+.footer p {
+    margin: 5px 0 0 0;
+    color: #666;
+    line-height: 1.5;
+}
