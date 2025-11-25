@@ -1,0 +1,82 @@
+/* Search Page Specific Styles */
+.search-container {
+    width: 100%;
+}
+
+.search-form-table {
+    border-collapse: collapse;
+}
+
+.search-form-table td {
+    padding: 4px;
+}
+
+.search-form-table td:first-child {
+    font-weight: bold;
+    text-align: right;
+    width: 80px;
+}
+
+.search-form-table input[type="text"] {
+    width: 250px;
+    border: 1px solid #000;
+}
+
+.results-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.result-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-pic {
+    width: 50px;
+    height: 50px;
+    background-color: #D8DFEA;
+    border: 1px solid #3B5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #3B5998;
+    flex-shrink: 0;
+}
+
+.result-info {
+    flex-grow: 1;
+    margin: 0 15px;
+}
+
+.result-info h4,
+.result-info p {
+    margin: 0;
+}
+
+.result-info h4 {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.result-action {
+    flex-shrink: 0;
+}
+
+.btn-addfriend {
+    background-color: transparent;
+    border: none;
+    color: #3B5998;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+}

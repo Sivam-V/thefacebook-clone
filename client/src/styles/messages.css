@@ -1,0 +1,53 @@
+/* Messages Page Specific Styles */
+.messages-container {
+    width: 100%;
+}
+
+.messages-container h2 {
+    font-size: 14px;
+    color: #3B5998;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #D8DFEA;
+    padding-bottom: 5px;
+}
+
+.messages-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.messages-table td {
+    padding: 8px 5px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.messages-table tr:last-child td {
+    border-bottom: none;
+}
+
+.msg-unread {
+    background-color: #F9F9F9;
+}
+
+.msg-sender {
+    width: 200px;
+}
+
+.msg-sender a {
+    font-weight: bold;
+}
+
+.msg-date {
+    color: #888;
+    font-size: 10px;
+}
+
+.msg-subject a {
+    color: #3B5998;
+}
+
+.messages-footer {
+    text-align: right;
+    padding-top: 10px;
+    font-weight: bold;
+}
